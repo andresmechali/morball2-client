@@ -37,7 +37,7 @@ const Game = ({ username }) => {
 
     setInterval(() => {
       newSocket.emit('data-request');
-    }, 15);
+    }, 25);
   }, []);
 
   useEffect(() => {

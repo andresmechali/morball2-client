@@ -24,16 +24,18 @@ const Field = ({ players, ball, goalposts, height, width }) => (
   </Card>
 );
 
-Field.propType = {
+Field.propTypes = {
   players: PropTypes.shape({
     // TODO: fill
   }).isRequired,
   ball: PropTypes.shape({
     //
   }).isRequired,
-  goalposts: PropTypes.shape({
-    //
-  }).isRequired,
+  goalposts: PropTypes.arrayOf(
+    PropTypes.shape({
+      //
+    }),
+  ).isRequired,
   width: PropTypes.number,
   height: PropTypes.number,
 };

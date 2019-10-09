@@ -18,7 +18,7 @@ const Wrapper = styled.div.attrs({
   border-color: black;
   left: 0;
   top: 0;
-  transition: transform 60ms;
+  transition: transform 25ms;
   will-change: transform;
 `;
 
