@@ -34,14 +34,6 @@ const Navbar = () => {
                   {t('navbar.home')}
                   <NavLink to="/home" />
                 </Menu.Item>
-                <Menu.Item key="2">
-                  {t('navbar.page2')}
-                  <NavLink to="/page2" />
-                </Menu.Item>
-                <Menu.Item key="3">
-                  {t('navbar.page3')}
-                  <NavLink to="/page3" />
-                </Menu.Item>
               </Menu>
             </Col>
           </Row>

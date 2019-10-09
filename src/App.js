@@ -9,8 +9,6 @@ import { Layout, Row, Col } from 'antd';
 
 // Pages
 import Home from 'pages/Home';
-import Page2 from 'pages/Page2';
-import Page3 from 'pages/Page3';
 
 // Components
 import Navbar from 'components/Navbar';
@@ -39,9 +37,7 @@ function App() {
               <Content>
                 <Switch>
                   <Route exact path="/home" component={Home} />
-                  <Route exact path="/page2" component={Page2} />
-                  <Route exact path="/page3" component={Page3} />
-                  <Route component={() => <Redirect to="/page1" />} />
+                  <Route component={() => <Redirect to="/home" />} />
                 </Switch>
               </Content>
             </Col>

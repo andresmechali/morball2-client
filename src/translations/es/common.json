@@ -1,11 +1,13 @@
 {
   "navbar": {
-    "home": "Inicio",
-    "page2": "Página 2",
-    "page3": "Página 3"
+    "home": "Inicio"
   },
   "home": {
     "title": "Inicio",
-    "content": "Esta es la página de inicio"
+    "content": "Bienvenidos!",
+    "chooseUsername": "Elegí un nombre de usuario",
+    "pleaseChooseUsername": "Por favor elegí un nombre de usuario válido!",
+    "play": "Jugar",
+    "username": "Nombre de usuario"
   }
 }

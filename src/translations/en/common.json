@@ -1,11 +1,13 @@
 {
   "navbar": {
-    "home": "Home",
-    "page2": "Page 2",
-    "page3": "Page 3"
+    "home": "Home"
   },
   "home": {
     "title": "Home page",
-    "content": "This is the home page"
+    "content": "Welcome!",
+    "chooseUsername": "Choose a username",
+    "pleaseChooseUsername": "Please choose a valid username!",
+    "play": "Play",
+    "username": "Username"
   }
 }
